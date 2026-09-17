@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
-#!/bin/bash
 
 # Update apt and ensure the locales package is installed
 apt-get update
 apt-get install -y locales
-
-#!/bin/bash
-
-export DEBIAN_FRONTEND=noninteractive
 
 # 1. Update and install locales without sudo
 apt-get update
